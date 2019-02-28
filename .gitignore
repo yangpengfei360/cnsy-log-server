@@ -21,3 +21,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.classpath
+.settings
+cnsy-log-app/.settings
+cnsy-log-app/cnsy-log-app-dao/.settings
+cnsy-log-app/cnsy-log-app-server/.settings
+cnsy-log-app/cnsy-log-app-service/.settings
+cnsy-log-common/.settings
+cnsy-log-register-server/.settings
+cnsy-log-zuul-api-server/.settings
+cnsy-log-app/cnsy-log-app-dao/.classpath
+cnsy-log-app/cnsy-log-app-server/.classpath
+cnsy-log-app/cnsy-log-app-service/.classpath
+cnsy-log-common/.classpath
+cnsy-log-register-server/.classpath
+cnsy-log-zuul-api-server/.classpath
+.project
+cnsy-log-app/.project
+cnsy-log-app/cnsy-log-app-dao/.project
+cnsy-log-app/cnsy-log-app-server/.project
+cnsy-log-app/cnsy-log-app-service/.project
+cnsy-log-common/.project
+cnsy-log-register-server/.project
+cnsy-log-zuul-api-server/.project
