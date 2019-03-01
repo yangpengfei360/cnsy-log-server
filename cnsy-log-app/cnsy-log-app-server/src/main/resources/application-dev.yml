@@ -1,0 +1,16 @@
+server:
+  port: 8751
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cnsy-log-app-server
+eureka:
+  instance:
+    hostname: host99
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://host0:8701/eureka/,http://host1:8702/eureka/,http://host2:8703/eureka/
+  

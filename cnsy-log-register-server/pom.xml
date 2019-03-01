@@ -8,4 +8,27 @@
   <artifactId>cnsy-log-register-server</artifactId>
   <name>cnsy-log-register-server</name>
   <description>this is enruka server cluster.</description>
+  
+  <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <start-class>cn.cnsy123.log.registerserver.CnsyLogRegisterServer</start-class>
+    </properties>
+  
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-eureka-server</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+  </dependencies>
 </project>

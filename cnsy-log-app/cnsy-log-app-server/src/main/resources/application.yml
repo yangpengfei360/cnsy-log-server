@@ -1,0 +1,8 @@
+server:
+  port: 8750
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cnsy-log-app-server
+  

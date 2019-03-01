@@ -1,0 +1,8 @@
+server:
+  port: 8700
+spring:
+  profiles:
+    active: dev1
+  application:
+    name: cnsy-log-register-server
+  

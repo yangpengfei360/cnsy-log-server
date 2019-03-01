@@ -1,0 +1,16 @@
+server:
+  port: 8702
+spring:
+  application:
+    name: cnsy-log-register-server
+  profiles:
+    active: dev2
+eureka:
+  instance:
+    hostname: host1
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://host0:8701/eureka/,http://host2:8703/eureka/
+  
